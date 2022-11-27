@@ -1,4 +1,4 @@
-package main.java.graphicEx;
+package graphicEx;
 
 import javax.swing.*;
 import java.awt.*;
