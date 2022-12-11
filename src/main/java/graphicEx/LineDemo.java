@@ -27,6 +27,6 @@ public class LineDemo extends JFrame {
 
 
     public static void main(String[] args) {
-        new RectDemo();
+        new CircleNRectTest();
     }
 }

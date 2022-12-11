@@ -29,7 +29,7 @@ public class RepaintDemo extends JFrame {
 
     class MousePanel extends JPanel {
         protected void paintComponent(Graphics g) {
-            super.paintComponent(g);
+            super.paintComponent(g); //JPanel
 
             addMouseListener(new MouseAdapter() {
                 public void mousePressed(MouseEvent e) {

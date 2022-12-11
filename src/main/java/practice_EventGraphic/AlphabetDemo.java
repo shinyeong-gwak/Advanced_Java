@@ -18,8 +18,8 @@ public class AlphabetDemo extends JFrame {
     MouseEvent e;
     public AlphabetDemo() throws HeadlessException {
         setTitle("랜덤 사각형");
-        AlphabetDemo.MousePanel p =new AlphabetDemo.MousePanel();
-        add( p);
+        MousePanel p =new MousePanel();
+        add(p);
 
 
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -59,6 +59,6 @@ public class AlphabetDemo extends JFrame {
     }
 
     public static void main(String[] argv) {
-        new graphicEx.RepaintDemo();
+        new AlphabetDemo();
     }
 }
